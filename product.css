@@ -1,0 +1,483 @@
+    /*chuong trinh*/
+.chuong_trinh{
+    background-color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+.chuong_trinh img{
+    width: 1250px;
+}
+    /*Phần sản phẩm*/
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    
+}
+
+.muc_luc_1{
+    padding-left: 340px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.bc, .ghbd, .ghcc{
+    margin-right: 80px;
+    padding: 0px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.bc, .ghbd, .ghcc:hover{
+    border-bottom: 2px solid black;
+    padding: 0px 20px 10px 20px;
+    margin-right: 80px;
+}
+/* .ghcc{
+    margin-right: 90px;
+    padding: 0px 20px 10px 20px;
+    cursor: pointer;
+} */
+
+/* .ghcc:hover{
+    border-bottom: 2px solid black;
+    margin-right: 90px;
+    padding: 0px 20px 10px 20px;
+} */
+
+
+.fas{
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.mucluc{
+    float: left;
+    width: 20%;
+}
+
+.muc_luc_2{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.muc_luc_2 h3{
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 10px 5px 0px rgb(165, 162, 162);
+}
+
+.kich_co{
+    padding: 30px 50px;
+}
+.kich_co div{
+    margin-bottom: 15px;
+}
+
+/* .free_size{
+    margin-bottom: 15px;
+} */
+/* .size_xs{
+    margin-bottom: 15px;
+} */
+
+.size_s, .size_l{
+    float: right;
+    padding-right: 20px;
+}
+
+/* .size_ml{
+    margin-bottom: 15px;
+} */
+
+/* .size_l{
+    float: right;
+    padding-right: 22px;
+} */
+
+.size_xxl{
+    float: right;
+}
+
+
+.mau_sac div{
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.red:hover{
+    border: 1px solid rgb(236, 99, 99);
+    background-color: rgb(247, 109, 109);
+    color:#fff;
+}
+
+
+.yellow:hover{
+    border: 1px solid rgb(236, 236, 117);
+    background-color: rgb(243, 243, 70);
+    color:#fff;
+}
+
+.orange:hover{
+    border: 1px solid rgb(243, 203, 130);
+    background-color: rgb(247, 192, 92);
+    color: #fff;
+}
+
+.green:hover{
+    border: 1px solid rgb(150, 241, 150);
+    background-color: rgb(27, 158, 27);
+    color: #fff;
+}
+
+.pink:hover{
+    border: 1px solid rgb(248, 149, 165);
+    background-color: rgb(245, 109, 132);
+    color: #fff;
+}
+
+.blue:hover{
+    border: 1px solid rgb(155, 155, 245);
+    background-color: rgb(142, 142, 252);
+    color: #fff;
+}
+
+.black:hover{
+    border: 1px solid black;
+    background-color: black;
+    color: #fff;
+}
+
+.white:hover{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+
+.purple:hover{
+    border: 1px solid rgb(245, 134, 245);
+    background-color: rgb(177, 25, 177);
+    color: #fff;
+}
+
+.silver:hover{
+    border: 1px solid silver;
+    background-color: silver;
+    color: #fff;
+}
+
+.gray:hover{
+    border: 1px solid gray;
+    background-color: gray;
+    color: #fff;
+}
+
+.all_sp h5{
+    padding: 10px 0px 10px 50px;
+    cursor: pointer;
+}
+
+.all_sp h5:hover{
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: gray;
+    color: #fff;
+    padding: 10px 0px 10px 50px;
+}
+
+    /*Hình ảnh*/
+
+
+.san-pham{
+    float: left; 
+    width: 18.77%;
+    background-color:white;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 80px;
+    box-shadow: 0px 5px 5px 0px rgb(165, 162, 162);
+    padding-bottom: 10px;
+}
+.san-pham img {
+    width: 250px;
+    height: 300px;
+    border-radius: 15px 15px 0px 0px;
+}
+.san-pham h4{
+    border: 1px;
+    margin: 5px 0px;
+}
+.san-pham a{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.icon .far{
+    margin-right: 90px;
+    font-size: 20px;
+}
+
+.icon .fas{
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+/* .so_1{
+    float: right;
+    margin: -1300px 720px 0px 0px;
+    width: 18.77%;
+    border: 1px solid rgb(173, 169, 169);
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 5px 0px rgb(165, 162, 162);
+}
+.so_1 img{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.so_1 h4{
+    border: 1px;
+    margin: 5px 0px;
+}
+
+.so_1 a{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.icon .far{
+    margin-right: 90px;
+    font-size: 20px;
+}
+
+.icon .fas{
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+.so_2{
+    float: right;
+    margin: -1300px 380px 0px 0px;
+    width: 18.77%;
+    border: 1px solid rgb(173, 169, 169);
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 5px 0px rgb(165, 162, 162);
+}
+.so_2 img{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.so_2 h4{
+    border: 1px;
+    margin: 5px 0px;
+}
+
+.so_2 a{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.so_3{
+    float: right;
+    margin: -1300px 50px 0px 0px;
+    width: 18.77%;
+    border: 1px solid rgb(173, 169, 169);
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 5px 0px rgb(165, 162, 162);
+}
+.so_3 img{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.so_3 h4{
+    border: 1px;
+    margin: 5px 0px;
+}
+
+.so_3 a{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.so_4{
+    float: right;
+    margin: -800px 720px 0px 0px;
+    width: 18.77%;
+    border: 1px solid rgb(173, 169, 169);
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 5px 0px rgb(165, 162, 162);
+}
+.so_4 img{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.so_4 h4{
+    border: 1px;
+    margin: 5px 0px;
+}
+
+.so_4 a{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.so_5{
+    float: right;
+    margin: -800px 380px 0px 0px;
+    width: 18.77%;
+    border: 1px solid rgb(173, 169, 169);
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 5px 0px rgb(165, 162, 162);
+}
+.so_5 img{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.so_5 h4{
+    border: 1px;
+    margin: 5px 0px;
+}
+
+.so_5 a{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.so_6{
+    float: right;
+    margin: -800px 50px 0px 0px;
+    width: 18.77%;
+    border: 1px solid rgb(173, 169, 169);
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 5px 0px rgb(165, 162, 162);
+}
+.so_6 img{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.so_6 h4{
+    border: 1px;
+    margin: 5px 0px;
+}
+
+.so_6 a{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.so_7{
+    float: right;
+    margin: -300px 720px 0px 0px;
+    width: 18.77%;
+    border: 1px solid rgb(173, 169, 169);
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 5px 0px rgb(165, 162, 162);
+}
+.so_7 img{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.so_7 h4{
+    border: 1px;
+    margin: 5px 0px;
+}
+
+.so_7 a{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.so_8{
+    float: right;
+    margin: -450px 380px 0px 0px;
+    width: 18.77%;
+    border: 1px solid rgb(173, 169, 169);
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 5px 0px rgb(165, 162, 162);
+}
+.so_8 img{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.so_8 h4{
+    border: 1px;
+    margin: 5px 0px;
+}
+
+.so_8 a{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.so_9{
+    float: right;
+    margin: -450px 50px 0px 0px;
+    width: 18.77%;
+    border: 1px solid rgb(173, 169, 169);
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 5px 0px rgb(165, 162, 162);
+}
+.so_9 img{
+    width: 250px;
+    height: 280px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.so_9 h4{
+    border: 1px;
+    margin: 5px 0px;
+}
+
+.so_9 a{
+    font-size: 15px;
+    margin-top: 15px;
+} */
+
